@@ -1,0 +1,16 @@
+body{
+    background-image:url("Urjith Sixth Grade.jpg");
+    background-size: 1px;
+}
+@keyframes rotate{
+    100% {transform: rotate(360deg);}
+}
+
+img{
+    width: 497px;
+}
+img:hover{
+    animation-name: rotate;
+    animation-duration: 0.00001s;
+    animation-iteration-count: infinite;
+}
